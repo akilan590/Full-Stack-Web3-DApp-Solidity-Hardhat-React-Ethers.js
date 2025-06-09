@@ -5,9 +5,6 @@
 
 ---
 
-## 🔗 Live Demo  
-🌐 [View DApp Live](#) *(Add your deployed URL)*
-
 ---
 
 ## 📂 Table of Contents  
