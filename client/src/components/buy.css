@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+
+body {
+  background: linear-gradient(135deg, #1e1e2f, #3e3c61);
+  font-family: "Sansita Swashed", cursive;
+  color: #f0e9ff;
+}
+
+.center {
+  width: 35%;
+  margin: 60px auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+.center h1 {
+  font-size: 2em;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  font-weight: 800;
+  padding-left: 15px;
+  border-left: 5px solid #7b2ff7;
+  background: linear-gradient(to right, #7b2ff7, #f107a3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.center .inputbox {
+  position: relative;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.center .inputbox input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 2px solid #a785f3;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 1em;
+  transition: 0.3s ease-in-out;
+}
+
+.center .inputbox input:focus {
+  border-color: #f107a3;
+  box-shadow: 0 0 10px rgba(241, 7, 163, 0.3);
+  outline: none;
+}
+
+.center .inputbox span {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  color: #c7b8f6;
+  font-size: 1em;
+  pointer-events: none;
+  transition: 0.3s ease-in-out;
+}
+
+.center .inputbox input:focus ~ span,
+.center .inputbox input:valid ~ span {
+  transform: translate(-10px, -30px);
+  font-size: 0.85em;
+  color: #f107a3;
+  background: #2b2b44;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.center .inputbox [type="submit"] {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(to right, #7b2ff7, #f107a3);
+  border: none;
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s ease;
+  box-shadow: 0 8px 15px rgba(123, 47, 247, 0.3);
+}
+
+.center .inputbox [type="submit"]:hover {
+  background: linear-gradient(to right, #f107a3, #7b2ff7);
+  transform: scale(1.05);
+  box-shadow: 0 12px 20px rgba(241, 7, 163, 0.4);
+}
