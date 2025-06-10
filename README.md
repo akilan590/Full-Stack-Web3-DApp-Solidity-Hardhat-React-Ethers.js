@@ -14,9 +14,7 @@
 - [🛠 Tech Stack](#-tech-stack)  
 - [📦 Installation](#-installation)  
 - [🧠 Smart Contract Logic](#-smart-contract-logic)  
-- [📸 Screenshots](#-screenshots)  
-- [🤝 Contributing](#-contributing)  
-- [📄 License](#-license)
+ - [📄 License](#-license)
 
 ---
 
